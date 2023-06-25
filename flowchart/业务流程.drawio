@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-25T06:53:06.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="X_8lJiyaFYY-9XeUeEgP" version="21.5.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-25T07:19:17.363Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Sx7CDAqtnJwmgi23X5Ds" version="21.5.0" type="github" pages="4">
   <diagram name="第 1 页" id="575FpAUIDsB1zLtyvgLs">
     <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -196,24 +196,75 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_JnLsxfe3Nq8Rdhrjrvx" name="第 4 页">
-    <mxGraphModel dx="735" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_ZYSCoQYJGfIZROxsuvH-15" value="z_award_lib" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="400" y="590" width="100" height="100" as="geometry" />
+          <mxGeometry x="370" y="580" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_ZYSCoQYJGfIZROxsuvH-16" value="z_award_maker" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="620" y="690" width="100" height="100" as="geometry" />
+          <mxGeometry x="530" y="390" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_ZYSCoQYJGfIZROxsuvH-17" value="db" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="640" y="390" width="100" height="100" as="geometry" />
+          <mxGeometry x="530" y="190" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_ZYSCoQYJGfIZROxsuvH-18" value="z_award_handle" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="510" y="600" width="100" height="100" as="geometry" />
+          <mxGeometry x="530" y="580" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="_ZYSCoQYJGfIZROxsuvH-19" value="z_award_expend" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="720" y="590" width="100" height="100" as="geometry" />
+          <mxGeometry x="720" y="580" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-20" value="AwardGiveM" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="770" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-21" value="TableKeysM" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="720" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-22" value="ExpendM" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="770" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-25" value="z_award_maker:get(Src, RoleUid, ServerId, Args, AwardInfo, Num)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1160" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-27" value="z_award_maker:give_award(Src, RoleUid, ServerId, Args, AwardInfo)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1070" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-29" value="{&#39;$PreReward&#39;, {Src, RoleUid, ServerId, Args}, Awards}" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="1230" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZYSCoQYJGfIZROxsuvH-33" target="_ZYSCoQYJGfIZROxsuvH-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="910" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_ZYSCoQYJGfIZROxsuvH-35" target="_ZYSCoQYJGfIZROxsuvH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-35" value="AwardInfo" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="537.5" y="1000" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.154;exitY=1.1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.158;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_ZYSCoQYJGfIZROxsuvH-27" target="_ZYSCoQYJGfIZROxsuvH-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="1210" as="sourcePoint" />
+            <mxPoint x="710" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-40" value="z_award_maker:give_award({&#39;$PreReward&#39;, {Src, RoleUid, ServerId, Args}, Awards})" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1290" width="480" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-42" value="AwardLogs" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1580" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-44" value="z_award_handle:award_tablekeys(Src, RoleUid, ServerId, Args, Awards)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1380" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-45" value="z_award_handle:transaction(fun award_tran_/2, {Src, RoleUid, ServerId, Args, Awards}, TableKeys)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1440" width="560" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_ZYSCoQYJGfIZROxsuvH-46" value="z_award_give:give_award(Src, RoleUid, ServerId, Args, Awards, DBMap)" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="1500" width="420" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
