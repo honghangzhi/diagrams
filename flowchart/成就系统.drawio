@@ -1,6 +1,140 @@
-<mxfile host="app.diagrams.net" modified="2023-07-13T01:56:12.971Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.6.2" etag="rPstg11jHSX7Qrl1Jg_N" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-13T08:04:42.846Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="f1G3_Nvm9CBAEEVmONSA" version="21.6.2" type="github" pages="3">
   <diagram name="第 1 页" id="AwvVZU5lTuHqgVY9JYCy">
-    <mxGraphModel>
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-1" target="g5jLiSZvAI1QV37AZL5k-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-1" value="get_achievements" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-2" target="g5jLiSZvAI1QV37AZL5k-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-2" target="g5jLiSZvAI1QV37AZL5k-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="320" />
+              <mxPoint x="298" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-2" target="g5jLiSZvAI1QV37AZL5k-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="330" />
+              <mxPoint x="1195" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-2" value="z_achievement_manager:format_achievements(Src, ServerId, RoleUid, Type)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="475" y="240" width="480" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-4" target="g5jLiSZvAI1QV37AZL5k-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-4" value="z_achievement_db:get_info(Src, ServerId, Key, Type)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="357.5" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g5jLiSZvAI1QV37AZL5k-6" target="g5jLiSZvAI1QV37AZL5k-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-6" value="z_achievement_lib:format_achievements(AchievementList)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="357.5" width="390" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-9" value="Type:get_attr(Src, ServerId, Key)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="360" width="270" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-11" value="Type:get(Src, ServerId, Key, Type, [])&lt;br&gt;z_db_lib:update(Table, Key, none, Fun, none)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="166.25" y="537.5" width="262.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g5jLiSZvAI1QV37AZL5k-13" value="format_achievement({sid, Sid, Achievement})" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="497.5" width="335" height="65" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a4UQgUSCsklNJm8vA_yR" name="第 2 页">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZrWD6QjHvck1vFzrDYV3-1" target="cN-XV7zEQQxylZcLKVBX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZrWD6QjHvck1vFzrDYV3-1" value="complete" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="120" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-1" target="cN-XV7zEQQxylZcLKVBX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-1" value="Type:complete(Src, ServerId, RoleUid, Key, Type, Sid, Step)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-3" value="zm_log:info&lt;br&gt;zm_event:notify(Src, achievement_complete, [{server_id, ServerId}, {role_uid, RoleUid}, {sid, Sid}, {type, Type}])" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="890" width="680" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-5" target="cN-XV7zEQQxylZcLKVBX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-5" value="检查state, timeout等" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-7" target="cN-XV7zEQQxylZcLKVBX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-7" target="cN-XV7zEQQxylZcLKVBX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-7" target="cN-XV7zEQQxylZcLKVBX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-7" value="z_achievement_lib:complete(ServerId, RoleUid, Achievement)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="355" y="490" width="370" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-9" target="cN-XV7zEQQxylZcLKVBX-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-9" value="z_achievement_lib:next_condition(Sid, Achievement)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="370" y="590" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-11" target="cN-XV7zEQQxylZcLKVBX-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-11" value="z_achievement_lib:trigger(ServerId, RoleUid, AchievementsTmp, TiggerIds, ?MODULE)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="275" y="690" width="530" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-13" target="cN-XV7zEQQxylZcLKVBX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-13" target="cN-XV7zEQQxylZcLKVBX-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-13" value="send_update(Src, ServerId, RoleUid, AddAchvs)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="395" y="800" width="290" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-18" value="M:finish(A1, A2, Var)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="810" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-20" value="M:complete(ServerId, RoleUid, A1, A2)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="810" y="520" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cN-XV7zEQQxylZcLKVBX-22" target="cN-XV7zEQQxylZcLKVBX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-22" value="achievement_lib:send_achievement_update(ServerId, RoleUid, [{gpb, pro_achievement, pro_achievement:init_achievement_update(z_achievement_lib:format_achievements(AddAchvs))}])." style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="796.88" width="1020" height="55.62" as="geometry" />
+        </mxCell>
+        <mxCell id="cN-XV7zEQQxylZcLKVBX-25" value="send_achievement_update(ServerId, RoleUid, Msg)" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="900" width="320" height="69.69" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jwR8imFewyrQ8K0zcXMZ" name="第 3 页">
+    <mxGraphModel dx="1674" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
